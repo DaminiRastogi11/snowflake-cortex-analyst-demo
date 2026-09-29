@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Snowflake credentials / local config (never commit these)
+.env
+connections.toml
+config.toml
+.snowflake/
+*.p8
+*.pem
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
